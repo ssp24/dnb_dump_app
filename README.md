@@ -2,7 +2,7 @@
 
 Es gibt zwei Möglichkeiten, um die SRU Query App zu nutzen: 
 
-1) SRUQueryTool.exe  
+1) SRUQueryTool.exe (portable)
    Die SRUQueryTool.exe enthält alle benötigten Python-Bibliotheken und kann als Standalone-Anwendung nach Download einfach ausgeführt werden. Heruntergeladene Datensets werden im Ordner, in dem das SRUQueryTool liegt und ausgeführt wird, abgelegt.
    
 2) sru_dump_allin1.py  
