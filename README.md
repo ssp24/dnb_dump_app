@@ -8,7 +8,8 @@ Es gibt zwei Möglichkeiten, um die SRU Query App zu nutzen:
    
 3) sru_dump_allin1.py  
 
-   Alternativ kann die Datei sru_dump_allin1.py genutzt werden. Hierfür muss Python installiert sein, zudem werden folgende Bibliotheken benötigt:
+   Alternativ kann die Datei sru_dump_allin1.py genutzt werden.
+   Hierfür muss Python installiert sein, zudem werden folgende Bibliotheken benötigt:
    - sys
    - PyQt5
    - datetime
