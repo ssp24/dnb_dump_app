@@ -1,6 +1,6 @@
 # SRU Query Tool
 
-Das SRU Query Tool ist im Rahmen des [https://www.dnb.de/dnblab](DNBLabs) der Deutschen Nationalbibliothek entstanden. Es ermöglicht das einfache Erstellen von Metadatendumps im XML-Format auf Basis einer Abfrage der SRU-Schnittstelle der DNB.
+Das SRU Query Tool ist im Rahmen des [DNBLabs](https://www.dnb.de/dnblab) der Deutschen Nationalbibliothek entstanden. Es ermöglicht das einfache Erstellen von Metadatendumps im XML-Format auf Basis einer Abfrage der SRU-Schnittstelle der DNB.
 
 Es gibt zwei Möglichkeiten, um die SRU Query App zu nutzen: 
 
