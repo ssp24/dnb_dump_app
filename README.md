@@ -4,9 +4,9 @@ Das SRU Query Tool ist im Rahmen des [DNBLabs](https://www.dnb.de/dnblab) der [D
 
 Es gibt zwei Möglichkeiten, um die SRU Query App zu nutzen: 
 
-1) SRUQueryTool.exe (portable)  
+1) SRUQueryTool-1.0-win64.msi (portable)  
 
-   Die SRUQueryTool.exe enthält alle benötigten Python-Bibliotheken und kann als Standalone-Anwendung nach Download einfach ausgeführt werden. Heruntergeladene Datensets werden im Ordner, in dem das SRUQueryTool liegt und ausgeführt wird, abgelegt.
+   Die Datei SRUQueryTool-1.0-win64.msi enthält alle benötigten Python-Bibliotheken und kann als Standalone-Anwendung nach Download auch ohne Admin-Rechte installiert werden. Heruntergeladene Datensets werden im Ordner, in dem das SRUQueryTool installiert wird, abgelegt.
    
 3) sru_dump_allin1.py  
 
