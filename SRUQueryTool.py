@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, \
-    QPushButton, QComboBox, QProgressBar, QSpacerItem, QSizePolicy, QShortcut
+    QPushButton, QComboBox, QProgressBar, QSpacerItem, QSizePolicy, QShortcut, QFileDialog, QMessageBox
 from PyQt5.QtCore import Qt, QThread, pyqtSignal
 from PyQt5.QtGui import QPixmap, QKeySequence
 from datetime import date
@@ -531,8 +531,22 @@ class SRUQueryApp(QMainWindow):
             name = query.replace(" ", "_")
             name = re.sub(r'[<>:"/\\|?*\x00-\x1F]', '_', name).strip('. ')
             filename = today + "_" + metadata + "_" + name
-            print(filename)
-            self.dnb_sru_thread = DNBSRUThread(query, metadata, cat_url, filename)
+
+            # --- Speicher-Pfad und Name den Nutzer abfragen:
+            save_path, _ = QFileDialog.getSaveFileName(
+                self,
+                "Datei speichern unter",
+                filename,  # Default-Name
+            )
+            if not save_path:
+                # User hat Abbrechen gedrückt
+                self.download_button.setEnabled(True)
+                self.cancel_button.setVisible(False)
+                self.progress_bar.setVisible(False)
+                self.status_label.setText("Download abgebrochen.")
+                return  # NICHT fortfahren!
+
+            self.dnb_sru_thread = DNBSRUThread(query, metadata, cat_url, save_path)
             self.dnb_sru_thread.progress_signal.connect(self.update_progress)
             self.dnb_sru_thread.result_signal.connect(self.handle_result)
             self.dnb_sru_thread.start()
