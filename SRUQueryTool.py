@@ -1,16 +1,27 @@
 import sys
+import os
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, \
     QPushButton, QComboBox, QProgressBar, QSpacerItem, QSizePolicy, QShortcut, QFileDialog, QMessageBox
-from PyQt5.QtCore import Qt, QThread, pyqtSignal
-from PyQt5.QtGui import QPixmap, QKeySequence
+from PyQt5.QtCore import Qt, QThread, pyqtSignal, QSize
+from PyQt5.QtGui import QPixmap, QKeySequence, QMovie
 from datetime import date
 # from sru_functions import dnb_sru, dnb_sru_number
 import requests
 from bs4 import BeautifulSoup as soup
 from time import sleep
 import re
+import certifi
+import ssl
+import _ssl
+
+# Loading Images:
+def resource_path(relative_path):
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 
+# SRU-Funktionen
 def dnb_sru_number(query, metadata, base_url):
     params = {'recordSchema': metadata,
               'operation': 'searchRetrieve',
@@ -21,22 +32,25 @@ def dnb_sru_number(query, metadata, base_url):
     if metadata != "mods-xml":
         params.update({'maximumRecords': '100'})
     try:
-        r1 = requests.get(base_url, params=params)
+        r1 = requests.get(base_url, params=params, verify=certifi.where())
         r1.raise_for_status()  # Raise an exception for bad status codes
         xml1 = soup(r1.content, features="xml")
-        treffer = xml1.find_all("numberOfRecords")
-        if treffer:
-            treffer = int(treffer[0].text)
-        else:
-            treffer = 0
-    except requests.RequestException as e:
-        print(f"Error in API request: {e}")
-        treffer = 0
-    except Exception as e:
-        print(f"Error processing response: {e}")
-        treffer = 0
 
-    return treffer
+        # Check for diagnostics:
+        treffer = xml1.find("numberOfRecords")
+        diag = xml1.find("diag:diagnostic")
+        if treffer and treffer.text.isdigit():
+            return int(treffer.text)
+        elif diag:
+            msg = diag.find("diag:details")
+            errormsg = f"FEHLER: {msg.text}"
+            return errormsg
+        else:
+            return 0
+    except Exception as e:
+        with open("error_log.txt", "w", encoding="utf-8") as f:
+            f.write(f"Fehler bei SRU-Abfrage:\n{str(e)}\n")
+        return f"FEHLER: {str(e)}"
 
 
 def dnb_sru(query, metadata, base_url, progress_signal, filename, is_running):
@@ -51,7 +65,7 @@ def dnb_sru(query, metadata, base_url, progress_signal, filename, is_running):
     if metadata != "mods-xml":
         params.update({'maximumRecords': '100'})
 
-    r = requests.get(base_url, params=params)
+    r = requests.get(base_url, params=params, verify=certifi.where())
     xml = soup(r.content, features="xml")
     diagnostics = xml.find_all('diagnostics')
     if diagnostics:
@@ -262,7 +276,24 @@ def dnb_sru(query, metadata, base_url, progress_signal, filename, is_running):
         else:
             print("Something went wrong.")
 
+## Worker:
+class DNBNumberWorker(QThread):
+    finished = pyqtSignal(object)
 
+    def __init__(self, query, metadata, base_url):
+        super().__init__()
+        self.query = query
+        self.metadata = metadata
+        self.base_url = base_url
+
+    def run(self):
+        try:
+            result = dnb_sru_number(self.query, self.metadata, self.base_url)
+            self.finished.emit(result)
+        except Exception as e:
+            self.finished.emit(f"FEHLER: {str(e)}")
+
+# App-Funktion:
 class DNBSRUThread(QThread):
     progress_signal = pyqtSignal(int)
     result_signal = pyqtSignal(bool)
@@ -292,21 +323,23 @@ class DNBSRUThread(QThread):
         self.logo_label.setGeometry(self.width() - 60, 10, 50, 50)
 
 
+# App-Layout:
 class SRUQueryApp(QMainWindow):
     def __init__(self):
         super().__init__()
         app = QApplication.instance()
         font = app.font()
         font.setFamily("Verdana")
+        font.setPointSize(10)
         app.setFont(font)
 
         self.setWindowTitle("SRU Query Tool")
-        self.setGeometry(100, 100, 750, 750)
+        self.setFixedSize(750, 800)
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
         layout = QVBoxLayout(central_widget)
         layout.setSpacing(10)  # Abstand zwischen Widgets
-        layout.setContentsMargins(20, 20, 20, 20)  # Ränder des Layouts
+        layout.setContentsMargins(40, 40, 40, 20)  # Ränder des Layouts
 
         heading = QLabel("SRU Query Tool")
         heading.setStyleSheet("""
@@ -316,19 +349,20 @@ class SRUQueryApp(QMainWindow):
         """)
         heading.setAlignment(Qt.AlignCenter)
         layout.addWidget(heading)
-        layout.addWidget(QLabel(" "))  # Empty label for spacing
+        #layout.addWidget(QLabel(" "))  # Empty label for spacing
 
         # Create a QLabel with the text
-        intro_label = QLabel("Mit diesem Tool können Sie die SRU-Schnittstelle der Deutschen Nationalbibliothek "
+        self.intro_label = QLabel("Mit diesem Tool können Sie die SRU-Schnittstelle der Deutschen Nationalbibliothek "
                              "abfragen und die Ergebnisse als Metadatendump herunterladen. <br> Allgemeine Informationen "
                              "zur SRU-Schnittstelle und den zur Verfügung stehenden Katalogen finden Sie unter "
                              "<a href='https://www.dnb.de/sru'>www.dnb.de/sru</a>. Weiterführende Informationen "
                              "zur Suche sowie Möglichkeiten zur Eingrenzung der Ergebnisse finden Sie unter "
                              "<a href='https://www.dnb.de/expertensuche'>www.dnb.de/expertensuche</a>.")
         # intro_label.setAlignment(Qt.AlignCenter)
-        intro_label.setWordWrap(True)  # wrap text
-        intro_label.setOpenExternalLinks(True)  # This allows the links to be clickable
-        layout.addWidget(intro_label)
+        self.intro_label.setWordWrap(True)  # wrap text
+        self.intro_label.setOpenExternalLinks(True)  # This allows the links to be clickable
+        self.intro_label.setSizePolicy(QSizePolicy.Preferred, QSizePolicy.Maximum)
+        layout.addWidget(self.intro_label)
         layout.addWidget(QLabel(" "))  # Empty label for spacing
 
         todo_label = QLabel("Wählen Sie einen Katalog und ein Metadatenformat aus und geben Sie Ihre Suchanfrage ein:")
@@ -398,11 +432,24 @@ class SRUQueryApp(QMainWindow):
         self.warning_label.setStyleSheet("color: red; font-weight: bold;")
         self.warning_label.setVisible(False)
         layout.addWidget(self.warning_label)
+        self.warning_label.setWordWrap(True)
+        #self.warning_label.setMaximumWidth(600)
+        self.warning_label.setTextFormat(Qt.RichText)
+        self.warning_label.setSizePolicy(QSizePolicy.Preferred, QSizePolicy.Maximum)
 
         # Progress Bar:
         self.progress_bar = QProgressBar()
         self.progress_bar.setVisible(False)
         layout.addWidget(self.progress_bar)
+
+        # Spinner-Animation
+        self.spinner_label = QLabel(self)
+        self.spinner_label.setAlignment(Qt.AlignCenter)
+        self.spinner = QMovie(resource_path("spinner.gif"))
+        self.spinner.setScaledSize(QSize(40, 40))  # optional: Spinnergröße anpassen
+        self.spinner_label.setMovie(self.spinner)
+        self.spinner_label.setVisible(False)
+        layout.addWidget(self.spinner_label)
 
         self.status_label = QLabel("")
         self.status_label.setAlignment(Qt.AlignCenter)
@@ -433,7 +480,7 @@ class SRUQueryApp(QMainWindow):
 
         # Add logo:
         self.logo_label = QLabel(self)
-        pixmap = QPixmap("logo.gif")
+        pixmap = QPixmap(resource_path("logo.gif"))
         self.logo_label.setPixmap(pixmap.scaled(80, 90, Qt.KeepAspectRatio, Qt.SmoothTransformation))
         self.logo_label.setAlignment(Qt.AlignTop | Qt.AlignRight)
         self.logo_label.setGeometry(self.width() - 110, 10, 90, 80)
@@ -477,32 +524,57 @@ class SRUQueryApp(QMainWindow):
                 cat_url = "https://services.dnb.de/sru/bib"
 
             if cat_url and metadata and query:
-                result = dnb_sru_number(query, metadata, cat_url)
-                display_text = f"Ihre Suchanfrage ergibt {result} Treffer."
-                self.results_label.setText(display_text)
-                if result < 100000:
-                    self.warning_label.setVisible(False)
-                    self.download_button.setEnabled(True)
-                else:
-                    self.warning_label.setText(
-                        "Warnung! Ihre Anfrage ergibt mehr als 100.000 Treffer! "
-                        "Bitte teilen Sie Ihre Anfrage so auf, dass Sie immer nur "
-                        "Anfragen mit maximal 100.000 Treffern stellen (bspw. indem Sie "
-                        "Zeitabschnitte hinzufügen).")
-                    self.warning_label.setVisible(True)
-                    self.warning_label.setWordWrap(True)
-                    self.download_button.setEnabled(False)
-            else:
-                self.warning_label.setText(
-                    "Bitte wählen Sie zuerst einen Katalog und ein Metadatenformat aus und "
-                    "geben Sie eine Suchanfrage ein.")
-                self.warning_label.setAlignment(Qt.AlignCenter)
-                self.warning_label.setWordWrap(True)
-                self.warning_label.setVisible(True)
-                self.download_button.setEnabled(False)
+                # Spinner anzeigen
+                self.spinner_label.setVisible(True)
+                self.spinner.start()
+                self.check_button.setEnabled(False)
+
+                # Starte Worker-Thread
+                self.worker = DNBNumberWorker(query, metadata, cat_url)
+                self.worker.finished.connect(self.handle_dnb_number_result)
+                self.worker.start()
+
         except Exception as e:
             self.results_label.setText(f"Ein Fehler ist aufgetreten: {str(e)}")
             print(f"Error: {str(e)}")
+
+    def handle_dnb_number_result(self, result):
+        # Spinner ausblenden
+        self.spinner.stop()
+        self.spinner_label.setVisible(False)
+        self.check_button.setEnabled(True)
+
+        try:
+            if isinstance(result, int):
+                if result <= 100000:
+                    display_text = f"Ihre Suchanfrage ergibt {result} Treffer."
+                    self.results_label.setText(display_text)
+                    self.warning_label.setVisible(False)
+                    self.download_button.setEnabled(True)
+                elif result > 100000:
+                    display_text = f"Ihre Suchanfrage ergibt {result} Treffer."
+                    self.results_label.setText(display_text)
+                    self.warning_label.setText(
+                        "<div align='center'><br>Warnung!<br><br> Ihre Anfrage ergibt mehr als 100.000 Treffer! "
+                        "Bitte teilen Sie Ihre Anfrage so auf, dass diese "
+                        "maximal 100.000 Treffer ergeben (z. B. mit Zeitabschnitten).</div>"
+                    )
+                    self.warning_label.setVisible(True)
+                    self.warning_label.setWordWrap(True)
+                    self.download_button.setEnabled(False)
+            elif isinstance(result, str) and result.startswith("FEHLER"):
+                self.warning_label.setText(result)
+                self.warning_label.setVisible(True)
+                self.download_button.setEnabled(False)
+                #self.results_label.setText(result)  # kein Ergebnis anzeigen
+                #return
+            else:
+                raise ValueError("Unerwarteter Rückgabewert")
+        except Exception as e:
+            self.warning_label.setText(f"<div align='center'>Ein unbekannter Fehler ist aufgetreten:<br>{str(e)}</div>")
+            self.warning_label.setVisible(True)
+            self.download_button.setEnabled(False)
+
 
     def get_xml(self):
         catalogue = self.catalogue_combo.currentText()
