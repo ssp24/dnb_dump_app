@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/"><version>1.1</version><numberOfRecords>6</numberOfRecords><records><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record type="Bibliographic" xmlns="http://www.loc.gov/MARC21/slim">
+<leader>00000pam a2200000 c 4500</leader>
+<controlfield tag="001">132671015X</controlfield>
+<controlfield tag="003">DE-101</controlfield>
+<controlfield tag="005">20250717093913.0</controlfield>
+<controlfield tag="007">tu</controlfield>
+<controlfield tag="008">240419s2025    gw ||||| |||| 00||||ger  </controlfield>
+<datafield ind1=" " ind2=" " tag="015">
+<subfield code="a">25,A29</subfield>
+<subfield code="z">24,N17</subfield>
+<subfield code="2">dnb</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="016">
+<subfield code="2">DE-101</subfield>
+<subfield code="a">132671015X</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="020">
+<subfield code="a">9783404194315</subfield>
+<subfield code="c">Broschur : EUR 12.99 (DE), EUR 13.40 (AT), CHF 17.90 (freier Preis)</subfield>
+<subfield code="9">978-3-404-19431-5</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="020">
+<subfield code="a">3404194314</subfield>
+<subfield code="9">3-404-19431-4</subfield>
+</datafield>
+<datafield ind1="3" ind2=" " tag="024">
+<subfield code="a">9783404194315</subfield>
+</datafield>
+<datafield ind1="5" ind2="2" tag="028">
+<subfield code="a">Bestellnummer 19431</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(DE-599)DNB132671015X</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(OCoLC)1528037296</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">1145</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="c">DE-101</subfield>
+<subfield code="d">9999</subfield>
+<subfield code="e">rda</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="041">
+<subfield code="a">ger</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="044">
+<subfield code="c">XA-DE-NW</subfield>
+</datafield>
+<datafield ind1="7" ind2="4" tag="082">
+<subfield code="8">2\p</subfield>
+<subfield code="a">830</subfield>
+<subfield code="a">B</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="2">23sdnb</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="100">
+<subfield code="8">1\p</subfield>
+<subfield code="0">(DE-588)134257103</subfield>
+<subfield code="0">https://d-nb.info/gnd/134257103</subfield>
+<subfield code="0">(DE-101)134257103</subfield>
+<subfield code="a">Müller, Jessica</subfield>
+<subfield code="d">1976-</subfield>
+<subfield code="e">Verfasser</subfield>
+<subfield code="4">aut</subfield>
+<subfield code="2">gnd</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="245">
+<subfield code="a">Kalter Hund und Krustenbraten</subfield>
+<subfield code="b">ein Bayern-Krimi</subfield>
+<subfield code="c">Jessica Müller</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="250">
+<subfield code="a">Vollständige Taschenbuchausgabe der bei Bastei Lübbe erschienenen E-Book-Ausgabe</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="259">
+<subfield code="a">votdbblee</subfield>
+</datafield>
+<datafield ind1=" " ind2="1" tag="264">
+<subfield code="a">Köln</subfield>
+<subfield code="b">Lübbe</subfield>
+<subfield code="c">[2025]</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">313 Seiten</subfield>
+<subfield code="c">19 cm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">Text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">Band</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Produktform)Paperback / softback</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022000</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022130</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Bayern</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Dachauer Land</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Dachau</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Oberbayern</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Dorf</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Süddeutschland</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Regiokrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Regionalkrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Bayernkrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Heimatkrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Lokalkrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Cosy Crime</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Cozy Crime</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">München</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Krindelsdorf</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Mops</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Hundeshow</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Gemütlich</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">spannend</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">witzig</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">lustig</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">LKA</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Mord</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Familie</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Konkurrenz</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Eifersucht</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Krimis</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022000</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(VLB-WN)2121: Taschenbuch / Belletristik/Krimis, Thriller, Spionage</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Lesealter)ab 16 Jahre</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022020</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022130: FICTION / Mystery &amp; Detective / Cozy / Culinary</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Bayern;Dachauer Land;Dachau;Oberbayern;Dorf;Süddeutschland;Regiokrimi;Regionalkrimi;Bayernkrimi;Heimatkrimi;Lokalkrimi;Cosy Crime;Cozy Crime;München;Krindelsdorf;Mops;Hundeshow;Gemütlich;spannend;witzig;lustig;LKA;Mord;Familie;Konkurrenz;Eifersucht;Krimis</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022020: FICTION / Mystery &amp; Detective / Police Procedural</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="0">(DE-588)1071854844</subfield>
+<subfield code="0">https://d-nb.info/gnd/1071854844</subfield>
+<subfield code="0">(DE-101)1071854844</subfield>
+<subfield code="a">Fiktionale Darstellung</subfield>
+<subfield code="2">gnd-content</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="0">(DE-101)1010874802</subfield>
+<subfield code="a">Krimis, Thriller, Spionage</subfield>
+<subfield code="2">gatbeg</subfield>
+</datafield>
+<datafield ind1="0" ind2="8" tag="776">
+<subfield code="i">Erscheint auch als</subfield>
+<subfield code="z">9783754010303</subfield>
+</datafield>
+<datafield ind1="0" ind2="8" tag="776">
+<subfield code="i">Erscheint auch als</subfield>
+<subfield code="n">Online-Ausgabe</subfield>
+<subfield code="a">Müller, Jessica, 1976-</subfield>
+<subfield code="t">Kalter Hund und Krustenbraten</subfield>
+<subfield code="d">Köln : beTHRILLED, 2023</subfield>
+<subfield code="h">Online-Ressource, 311 Seiten</subfield>
+<subfield code="w">(DE-101)1315573105</subfield>
+<subfield code="b">1. Auflage 2023</subfield>
+</datafield>
+<datafield ind1="0" ind2="8" tag="787">
+<subfield code="i">In Beziehung stehende Ressource</subfield>
+<subfield code="z">9783404185276</subfield>
+</datafield>
+<datafield ind1="0" ind2="8" tag="787">
+<subfield code="i">In Beziehung stehende Ressource</subfield>
+<subfield code="z">9783404188024</subfield>
+</datafield>
+<datafield ind1="0" ind2="8" tag="787">
+<subfield code="i">In Beziehung stehende Ressource</subfield>
+<subfield code="z">9783404188987</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="850">
+<subfield code="a">DE-101a</subfield>
+<subfield code="a">DE-101b</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="m">X:MVB</subfield>
+<subfield code="q">text/html</subfield>
+<subfield code="u">http://deposit.dnb.de/cgi-bin/dokserv?id=ca5f604b99a94888b867f8ede77fd407&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+<subfield code="3">Inhaltstext</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">1\p</subfield>
+<subfield code="a">dnb</subfield>
+<subfield code="d">20250709</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">2\p</subfield>
+<subfield code="a">dnb</subfield>
+<subfield code="d">20250711</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+</datafield>
+<datafield ind1="r" ind2=" " tag="925">
+<subfield code="a">ra</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="926">
+<subfield code="a">FF</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.6</subfield>
+<subfield code="x">Kriminalromane und Mystery</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">FXR</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.6</subfield>
+<subfield code="x">Belletristik: Themen, Stoffe, Motive: Regionalroman</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">FU</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.6</subfield>
+<subfield code="x">Belletristik: Humor</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">FFP</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.6</subfield>
+<subfield code="x">Kriminalromane und Mystery: Polizeiarbeit &amp; Forensik</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">1DFG-DE-TBB</subfield>
+<subfield code="o">94</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.6</subfield>
+<subfield code="x">Oberbayern</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">3MRB</subfield>
+<subfield code="o">96</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.6</subfield>
+<subfield code="x">Erste Hälfte 21. Jahrhundert (ca. 2000 bis ca. 2050)</subfield>
+</datafield>
+</record></recordData><recordPosition>1</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record type="Bibliographic" xmlns="http://www.loc.gov/MARC21/slim">
+<leader>00000nim a2200000uc 4500</leader>
+<controlfield tag="001">1311142134</controlfield>
+<controlfield tag="003">DE-101</controlfield>
+<controlfield tag="005">20231206230300.0</controlfield>
+<controlfield tag="007">s|||||||||||||</controlfield>
+<controlfield tag="007">cr||||||||||||</controlfield>
+<controlfield tag="008">231125s2024    gw |||||o|||||||||||ger  </controlfield>
+<datafield ind1=" " ind2=" " tag="015">
+<subfield code="a">23,O12</subfield>
+<subfield code="2">dnb</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="016">
+<subfield code="2">DE-101</subfield>
+<subfield code="a">1311142134</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="020">
+<subfield code="a">9783754010303</subfield>
+<subfield code="9">978-3-7540-1030-3</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="024">
+<subfield code="2">urn</subfield>
+<subfield code="a">urn:nbn:de:101:1-2023112516253542656968</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(DE-599)DNB1311142134</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(OCoLC)1412013765</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">1140</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="c">DE-101</subfield>
+<subfield code="d">9999</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="041">
+<subfield code="8">1\p</subfield>
+<subfield code="a">ger</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="044">
+<subfield code="c">XA-DE-NW</subfield>
+</datafield>
+<datafield ind1="7" ind2="4" tag="082">
+<subfield code="8">4\p</subfield>
+<subfield code="a">830</subfield>
+<subfield code="a">B</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="2">23sdnb</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="100">
+<subfield code="8">2\p</subfield>
+<subfield code="a">Müller, Jessica</subfield>
+<subfield code="e">Verfasser</subfield>
+<subfield code="4">aut</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="245">
+<subfield code="a">Kalter Hund und Krustenbraten - Hauptkommissar Hirschberg, Teil 7 (Ungekürzt)</subfield>
+<subfield code="c">Jessica Müller</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="250">
+<subfield code="a">Ungekürzte Lesung, ungekürzte Ausgabe</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="259">
+<subfield code="a">unlua</subfield>
+</datafield>
+<datafield ind1=" " ind2="1" tag="264">
+<subfield code="a">Köln</subfield>
+<subfield code="b">Bastei Lübbe AG</subfield>
+<subfield code="c">2024</subfield>
+</datafield>
+<datafield ind1=" " ind2="1" tag="264">
+<subfield code="b">Lübbe Audio</subfield>
+<subfield code="c">2024</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">Online-Ressource</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">gesprochenes Wort</subfield>
+<subfield code="b">spw</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">Computermedien</subfield>
+<subfield code="b">c</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">Online-Ressource</subfield>
+<subfield code="b">cr</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="490">
+<subfield code="a">Hauptkommissar Hirschberg</subfield>
+<subfield code="v">Teil 7: Kalter Hund und Krustenbraten</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="583">
+<subfield code="a">Archivierung/Langzeitarchivierung gewährleistet</subfield>
+<subfield code="5">DE-101</subfield>
+<subfield code="2">pdager</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Produktform)Downloadable audio file</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Produktform (spezifisch))MP3 format</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022020</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022130</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(VLB-WN)9121</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="0">(DE-101)1010874802</subfield>
+<subfield code="a">Krimis, Thriller, Spionage</subfield>
+<subfield code="2">gatbeg</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="700">
+<subfield code="8">3\p</subfield>
+<subfield code="a">Walch, Sebastian</subfield>
+<subfield code="e">Erzähler</subfield>
+<subfield code="4">nrt</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="830">
+<subfield code="a">Hauptkommissar Hirschberg</subfield>
+<subfield code="v">Teil 7: Kalter Hund und Krustenbraten</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="850">
+<subfield code="a">DE-101a</subfield>
+<subfield code="a">DE-101b</subfield>
+</datafield>
+<datafield ind1="4" ind2="0" tag="856">
+<subfield code="u">https://nbn-resolving.org/urn:nbn:de:101:1-2023112516253542656968</subfield>
+<subfield code="x">Resolving-System</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="856">
+<subfield code="u">https://d-nb.info/1311142134/34</subfield>
+<subfield code="x">Langzeitarchivierung Nationalbibliothek</subfield>
+</datafield>
+<datafield ind1="4" ind2=" " tag="856">
+<subfield code="q">mp3</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="883">
+<subfield code="8">1\p</subfield>
+<subfield code="a">npi</subfield>
+<subfield code="d">20231125</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#npi</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="883">
+<subfield code="8">2\p</subfield>
+<subfield code="a">npi</subfield>
+<subfield code="d">20231125</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#npi</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="883">
+<subfield code="8">3\p</subfield>
+<subfield code="a">npi</subfield>
+<subfield code="d">20231125</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#npi</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="883">
+<subfield code="8">4\p</subfield>
+<subfield code="a">npi</subfield>
+<subfield code="d">20231125</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#npi</subfield>
+</datafield>
+<datafield ind1="r" ind2=" " tag="925">
+<subfield code="a">ro</subfield>
+<subfield code="a">ra</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="927">
+<subfield code="a">235470851</subfield>
+</datafield>
+</record></recordData><recordPosition>2</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record type="Bibliographic" xmlns="http://www.loc.gov/MARC21/slim">
+<leader>00000nam a2200000 c 4500</leader>
+<controlfield tag="001">130105349X</controlfield>
+<controlfield tag="003">DE-101</controlfield>
+<controlfield tag="005">20231004220035.0</controlfield>
+<controlfield tag="007">tu</controlfield>
+<controlfield tag="008">230905s2023    gw ||||| |||| 00||||ger  </controlfield>
+<datafield ind1=" " ind2=" " tag="015">
+<subfield code="a">23,A40</subfield>
+<subfield code="2">dnb</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="016">
+<subfield code="2">DE-101</subfield>
+<subfield code="a">130105349X</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="020">
+<subfield code="a">9783985075546</subfield>
+<subfield code="c">Broschur</subfield>
+<subfield code="9">978-3-98507-554-6</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(DE-599)DNB130105349X</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(OCoLC)1401193941</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">1280</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="c">DE-101</subfield>
+<subfield code="d">9999</subfield>
+<subfield code="e">rda</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="041">
+<subfield code="a">ger</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="044">
+<subfield code="c">XA-DE</subfield>
+</datafield>
+<datafield ind1="7" ind2="4" tag="082">
+<subfield code="8">2\p</subfield>
+<subfield code="a">830</subfield>
+<subfield code="a">B</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="2">23sdnb</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="100">
+<subfield code="8">1\p</subfield>
+<subfield code="0">(DE-588)134257103</subfield>
+<subfield code="0">https://d-nb.info/gnd/134257103</subfield>
+<subfield code="0">(DE-101)134257103</subfield>
+<subfield code="a">Müller, Jessica</subfield>
+<subfield code="d">1976-</subfield>
+<subfield code="e">Verfasser</subfield>
+<subfield code="4">aut</subfield>
+<subfield code="2">gnd</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="245">
+<subfield code="a">Kalter Hund und Krustenbraten</subfield>
+<subfield code="b">ein Bayern-Krimi</subfield>
+<subfield code="c">Jessica Müller</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="250">
+<subfield code="a">Genehmigte Lizenzausgabe</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="259">
+<subfield code="a">gel</subfield>
+</datafield>
+<datafield ind1=" " ind2="1" tag="264">
+<subfield code="a">Augsburg</subfield>
+<subfield code="b">Weltbild</subfield>
+<subfield code="c">2023</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">333 Seiten</subfield>
+<subfield code="c">21 cm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">Text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">Band</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="0">(DE-588)1071854844</subfield>
+<subfield code="0">https://d-nb.info/gnd/1071854844</subfield>
+<subfield code="0">(DE-101)1071854844</subfield>
+<subfield code="a">Fiktionale Darstellung</subfield>
+<subfield code="2">gnd-content</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="0">(DE-101)1010874802</subfield>
+<subfield code="a">Krimis, Thriller, Spionage</subfield>
+<subfield code="2">gatbeg</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="850">
+<subfield code="a">DE-101a</subfield>
+<subfield code="a">DE-101b</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">1\p</subfield>
+<subfield code="a">dnb</subfield>
+<subfield code="d">20230908</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">2\p</subfield>
+<subfield code="a">dnb</subfield>
+<subfield code="d">20230925</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+</datafield>
+<datafield ind1="r" ind2=" " tag="925">
+<subfield code="a">ra</subfield>
+</datafield>
+</record></recordData><recordPosition>3</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record type="Bibliographic" xmlns="http://www.loc.gov/MARC21/slim">
+<leader>00000nam a2200000uc 4500</leader>
+<controlfield tag="001">1315573105</controlfield>
+<controlfield tag="003">DE-101</controlfield>
+<controlfield tag="005">20250711223251.0</controlfield>
+<controlfield tag="007">cr||||||||||||</controlfield>
+<controlfield tag="008">240111s2023    gw |||||o|||| 00||||ger  </controlfield>
+<datafield ind1=" " ind2=" " tag="015">
+<subfield code="a">24,O02</subfield>
+<subfield code="2">dnb</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="016">
+<subfield code="2">DE-101</subfield>
+<subfield code="a">1315573105</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="020">
+<subfield code="a">9783751725477</subfield>
+<subfield code="9">978-3-7517-2547-7</subfield>
+</datafield>
+<datafield ind1="3" ind2=" " tag="024">
+<subfield code="a">9783751725477</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="024">
+<subfield code="2">urn</subfield>
+<subfield code="a">urn:nbn:de:101:1-2024011101432289315309</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(DE-599)DNB1315573105</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(OCoLC)1420192183</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">1140</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="c">DE-101</subfield>
+<subfield code="d">9999</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="041">
+<subfield code="8">1\p</subfield>
+<subfield code="a">ger</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="044">
+<subfield code="c">XA-DE-NW</subfield>
+</datafield>
+<datafield ind1="7" ind2="4" tag="082">
+<subfield code="8">4\p</subfield>
+<subfield code="a">830</subfield>
+<subfield code="a">B</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="2">23sdnb</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="100">
+<subfield code="8">3\p</subfield>
+<subfield code="0">(DE-588)134257103</subfield>
+<subfield code="0">https://d-nb.info/gnd/134257103</subfield>
+<subfield code="0">(DE-101)134257103</subfield>
+<subfield code="a">Müller, Jessica</subfield>
+<subfield code="d">1976-</subfield>
+<subfield code="e">Verfasser</subfield>
+<subfield code="4">aut</subfield>
+<subfield code="2">gnd</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="245">
+<subfield code="a">Kalter Hund und Krustenbraten</subfield>
+<subfield code="b">Ein Bayern-Krimi</subfield>
+<subfield code="c">Jessica Müller</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="250">
+<subfield code="a">1. Auflage 2023</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="259">
+<subfield code="a">11</subfield>
+</datafield>
+<datafield ind1=" " ind2="1" tag="264">
+<subfield code="a">Köln</subfield>
+<subfield code="b">beTHRILLED</subfield>
+<subfield code="c">2023</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">Online-Ressource, 311 Seiten</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">Text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">Computermedien</subfield>
+<subfield code="b">c</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">Online-Ressource</subfield>
+<subfield code="b">cr</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="490">
+<subfield code="a">Hauptkommissar Hirschberg</subfield>
+<subfield code="v">7</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="583">
+<subfield code="a">Archivierung/Langzeitarchivierung gewährleistet</subfield>
+<subfield code="5">DE-101</subfield>
+<subfield code="2">pdager</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Produktform)Electronic book text</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Lesealter)ab 16 Jahre</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022020</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Produktform (spezifisch))Reflowable</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022130: FICTION / Mystery &amp; Detective / Cozy / Culinary</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Bayern;Dachauer Land;Dachau;Oberbayern;Dorf;Süddeutschland;Regiokrimi;Regionalkrimi;Bayernkrimi;Heimatkrimi;Lokalkrimi;Cosy Crime;Cozy Crime;München;Krindelsdorf;Mops;Hundeshow;Gemütlich;spannend;witzig;lustig;LKA;Mord;Familie;Konkurrenz;Eifersucht;Krimis</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(VLB-WN)9121: Belletristik / Krimis, Thriller, Spionage</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022020: FICTION / Mystery &amp; Detective / Police Procedural</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022000</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC022130</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Bayern</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Dachauer Land</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Dachau</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Oberbayern</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Dorf</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Süddeutschland</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Regiokrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Regionalkrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Bayernkrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Heimatkrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Lokalkrimi</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Cosy Crime</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Cozy Crime</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">München</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Krindelsdorf</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Mops</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Hundeshow</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Gemütlich</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">spannend</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">witzig</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">lustig</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">LKA</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Mord</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Familie</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Konkurrenz</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Eifersucht</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Krimis</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="8">2\p</subfield>
+<subfield code="0">(DE-588)1071854844</subfield>
+<subfield code="0">https://d-nb.info/gnd/1071854844</subfield>
+<subfield code="0">(DE-101)1071854844</subfield>
+<subfield code="a">Fiktionale Darstellung</subfield>
+<subfield code="2">gnd-content</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="0">(DE-101)1010874802</subfield>
+<subfield code="a">Krimis, Thriller, Spionage</subfield>
+<subfield code="2">gatbeg</subfield>
+</datafield>
+<datafield ind1="0" ind2="8" tag="776">
+<subfield code="i">Erscheint auch als</subfield>
+<subfield code="z">9783754010303</subfield>
+</datafield>
+<datafield ind1="0" ind2="8" tag="776">
+<subfield code="i">Erscheint auch als</subfield>
+<subfield code="n">Druck-Ausgabe</subfield>
+<subfield code="a">Müller, Jessica, 1976-</subfield>
+<subfield code="t">Kalter Hund und Krustenbraten</subfield>
+<subfield code="d">Köln : Lübbe, [2025]</subfield>
+<subfield code="h">313 Seiten</subfield>
+<subfield code="w">(DE-101)132671015X</subfield>
+<subfield code="b">Vollständige Taschenbuchausgabe der bei Bastei Lübbe erschienenen E-Book-Ausgabe</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="830">
+<subfield code="a">Hauptkommissar Hirschberg</subfield>
+<subfield code="v">7</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="850">
+<subfield code="a">DE-101a</subfield>
+<subfield code="a">DE-101b</subfield>
+</datafield>
+<datafield ind1="4" ind2="0" tag="856">
+<subfield code="u">https://nbn-resolving.org/urn:nbn:de:101:1-2024011101432289315309</subfield>
+<subfield code="x">Resolving-System</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="856">
+<subfield code="u">https://d-nb.info/1315573105/34</subfield>
+<subfield code="x">Langzeitarchivierung Nationalbibliothek</subfield>
+</datafield>
+<datafield ind1="4" ind2=" " tag="856">
+<subfield code="q">epub</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">1\p</subfield>
+<subfield code="a">dnb-pa</subfield>
+<subfield code="d">20250128</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb-pa</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">2\p</subfield>
+<subfield code="a">dnb-pa</subfield>
+<subfield code="d">20250711</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb-pa</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="883">
+<subfield code="8">3\p</subfield>
+<subfield code="a">cgwrk</subfield>
+<subfield code="d">20240112</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#cgwrk</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">4\p</subfield>
+<subfield code="a">dnb-pa</subfield>
+<subfield code="d">20250711</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb-pa</subfield>
+</datafield>
+<datafield ind1="r" ind2=" " tag="925">
+<subfield code="a">ro</subfield>
+<subfield code="a">ra</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="926">
+<subfield code="a">FFJ</subfield>
+<subfield code="o">93</subfield>
+<subfield code="v">1.2</subfield>
+<subfield code="x">Crime and mystery: cosy mystery</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">FXR</subfield>
+<subfield code="o">93</subfield>
+<subfield code="v">1.2</subfield>
+<subfield code="x">Narrative theme: Sense of place</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">FU</subfield>
+<subfield code="o">93</subfield>
+<subfield code="v">1.2</subfield>
+<subfield code="x">Humorous fiction</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">FFP</subfield>
+<subfield code="o">93</subfield>
+<subfield code="v">1.2</subfield>
+<subfield code="x">Crime and mystery: police procedural</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">1DFG-DE-TBB</subfield>
+<subfield code="o">94</subfield>
+<subfield code="v">1.2</subfield>
+<subfield code="x">Upper Bavaria</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">3MRB</subfield>
+<subfield code="o">96</subfield>
+<subfield code="v">1.2</subfield>
+<subfield code="x">Early 21st century c 2000 to c 2050</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="927">
+<subfield code="a">235470851</subfield>
+</datafield>
+</record></recordData><recordPosition>4</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record type="Bibliographic" xmlns="http://www.loc.gov/MARC21/slim">
+<leader>00000pam a2200000 c 4500</leader>
+<controlfield tag="001">1335205160</controlfield>
+<controlfield tag="003">DE-101</controlfield>
+<controlfield tag="005">20250409112403.0</controlfield>
+<controlfield tag="007">tu</controlfield>
+<controlfield tag="008">240710s2021    gw ||||| |||| 00||||ger  </controlfield>
+<datafield ind1=" " ind2=" " tag="015">
+<subfield code="a">24,N29</subfield>
+<subfield code="2">dnb</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="016">
+<subfield code="2">DE-101</subfield>
+<subfield code="a">1335205160</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="020">
+<subfield code="a">9783964031518</subfield>
+<subfield code="c">Broschur : EUR 19.90 (DE), EUR 20.50 (AT)</subfield>
+<subfield code="9">978-3-96403-151-8</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="020">
+<subfield code="a">3964031518</subfield>
+<subfield code="9">3-96403-151-8</subfield>
+</datafield>
+<datafield ind1="3" ind2=" " tag="024">
+<subfield code="a">9783964031518</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(DE-599)DNB1335205160</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(OCoLC)1446437358</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">1145</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="c">DE-101</subfield>
+<subfield code="d">1150</subfield>
+<subfield code="e">rda</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="041">
+<subfield code="a">ger</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="044">
+<subfield code="c">XA-DE-NW</subfield>
+</datafield>
+<datafield ind1="7" ind2="4" tag="082">
+<subfield code="8">3\p</subfield>
+<subfield code="a">640</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="2">23sdnb</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="100">
+<subfield code="8">1\p</subfield>
+<subfield code="a">Münstermann, Moni</subfield>
+<subfield code="e">Verfasser</subfield>
+<subfield code="4">aut</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="245">
+<subfield code="a">Mia San Vegan</subfield>
+<subfield code="b">bayrisches Kochbuch für Veggies - 63 ausgefallene vegane Rezepte von Obazda bis Krustenbraten</subfield>
+<subfield code="c">von Moni Münstermann</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="250">
+<subfield code="a">1. Auflage</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="259">
+<subfield code="a">11</subfield>
+</datafield>
+<datafield ind1=" " ind2="1" tag="264">
+<subfield code="a">Duisburg</subfield>
+<subfield code="b">EK-2 Publishing GmbH</subfield>
+<subfield code="c">Juni 2021</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">117 Seiten</subfield>
+<subfield code="b">Illustrationen</subfield>
+<subfield code="c">28 cm</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">Text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">unbewegtes Bild</subfield>
+<subfield code="b">sti</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">Band</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Produktform)Paperback / softback</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">vegan for starters</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">vegan rezepte</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">obazda</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">bayrische kochbuch</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">bayrisch veggie</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">vegane hausmannskost</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(VLB-WN)1455: Hardcover, Softcover / Ratgeber/Essen, Trinken/Themenkochbücher</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="0">(DE-588)4114240-8</subfield>
+<subfield code="0">https://d-nb.info/gnd/4114240-8</subfield>
+<subfield code="0">(DE-101)041142403</subfield>
+<subfield code="a">Kochbuch</subfield>
+<subfield code="2">gnd-content</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="710">
+<subfield code="8">2\p</subfield>
+<subfield code="a">LeseGlück</subfield>
+<subfield code="e">Herausgebendes Organ</subfield>
+<subfield code="4">isb</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="850">
+<subfield code="a">DE-101a</subfield>
+<subfield code="a">DE-101b</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="m">X:MVB</subfield>
+<subfield code="q">text/html</subfield>
+<subfield code="u">http://deposit.dnb.de/cgi-bin/dokserv?id=266ad5a492114df786b659397c420d35&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+<subfield code="3">Inhaltstext</subfield>
+</datafield>
+<datafield ind1="4" ind2="2" tag="856">
+<subfield code="m">B:DE-101</subfield>
+<subfield code="q">application/pdf</subfield>
+<subfield code="u">https://d-nb.info/1335205160/04</subfield>
+<subfield code="3">Inhaltsverzeichnis</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">1\p</subfield>
+<subfield code="a">dnb</subfield>
+<subfield code="d">20250203</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="883">
+<subfield code="8">2\p</subfield>
+<subfield code="a">vlb</subfield>
+<subfield code="d">20240710</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#vlb</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="883">
+<subfield code="8">3\p</subfield>
+<subfield code="a">dnb</subfield>
+<subfield code="d">20250409</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+</datafield>
+<datafield ind1="r" ind2=" " tag="925">
+<subfield code="a">ra</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="926">
+<subfield code="a">WBJK</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.5</subfield>
+<subfield code="x">Vegane Küche und Veganismus</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">WBV</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.5</subfield>
+<subfield code="x">Kochen: Gerichte und Menüs / Mahlzeiten</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">WBJ</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.5</subfield>
+<subfield code="x">Vegetarisches Kochen und Vegetarismus</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">WBA</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.5</subfield>
+<subfield code="x">Kochen und Rezepte allgemein</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">WBVM</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.5</subfield>
+<subfield code="x">Kochen: Hauptgerichte</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">WBVQ</subfield>
+<subfield code="o">93</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.5</subfield>
+<subfield code="x">Kochen: Desserts</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">1DFG-DE-TB</subfield>
+<subfield code="o">94</subfield>
+<subfield code="q">Publisher</subfield>
+<subfield code="v">1.5</subfield>
+<subfield code="x">Bayern</subfield>
+</datafield>
+</record></recordData><recordPosition>5</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record type="Bibliographic" xmlns="http://www.loc.gov/MARC21/slim">
+<leader>00000nam a2200000uc 4500</leader>
+<controlfield tag="001">1197374205</controlfield>
+<controlfield tag="003">DE-101</controlfield>
+<controlfield tag="005">20191021180139.0</controlfield>
+<controlfield tag="007">cr||||||||||||</controlfield>
+<controlfield tag="008">191018s2019    gw |||||o|||| 00||||ger  </controlfield>
+<datafield ind1=" " ind2=" " tag="015">
+<subfield code="a">19,O11</subfield>
+<subfield code="2">dnb</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="016">
+<subfield code="2">DE-101</subfield>
+<subfield code="a">1197374205</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="020">
+<subfield code="a">9783748558545</subfield>
+<subfield code="9">978-3-7485-5854-5</subfield>
+</datafield>
+<datafield ind1="3" ind2=" " tag="024">
+<subfield code="a">9783748558545</subfield>
+</datafield>
+<datafield ind1="7" ind2=" " tag="024">
+<subfield code="2">urn</subfield>
+<subfield code="a">urn:nbn:de:101:1-2019101823024545381258</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(DE-599)DNB1197374205</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="035">
+<subfield code="a">(OCoLC)1197191606</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="040">
+<subfield code="a">1140</subfield>
+<subfield code="b">ger</subfield>
+<subfield code="c">DE-101</subfield>
+<subfield code="d">9999</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="041">
+<subfield code="a">ger</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="044">
+<subfield code="c">XA-DE-BE</subfield>
+</datafield>
+<datafield ind1="7" ind2="4" tag="082">
+<subfield code="8">1\p</subfield>
+<subfield code="a">830</subfield>
+<subfield code="a">B</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="2">23sdnb</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="100">
+<subfield code="a">Donut, Limbo</subfield>
+<subfield code="e">Verfasser</subfield>
+<subfield code="4">aut</subfield>
+</datafield>
+<datafield ind1="1" ind2="0" tag="245">
+<subfield code="a">Krustenbraten-Casanova</subfield>
+<subfield code="b">Ein Bums- und Trinkroman</subfield>
+<subfield code="c">Limbo Donut</subfield>
+</datafield>
+<datafield ind1=" " ind2="1" tag="264">
+<subfield code="a">München</subfield>
+<subfield code="b">neobooks</subfield>
+<subfield code="c">2019</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="300">
+<subfield code="a">Online-Ressource, 299 Seiten</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="336">
+<subfield code="a">Text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="337">
+<subfield code="a">Computermedien</subfield>
+<subfield code="b">c</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="338">
+<subfield code="a">Online-Ressource</subfield>
+<subfield code="b">cr</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield ind1="8" ind2=" " tag="521">
+<subfield code="a">FSK Freigabe ab 18 Jahren</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="583">
+<subfield code="a">Archivierung/Langzeitarchivierung gewährleistet</subfield>
+<subfield code="5">DE-101</subfield>
+<subfield code="2">pdager</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(Produktform)Electronic book text</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(BISAC Subject Heading)FIC005000</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Sex</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Franken</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Strand</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Urlaub</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Spaß</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Ibiza</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Comedy</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Party</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Feiern</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">Sommer</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="653">
+<subfield code="a">(VLB-WN)9112</subfield>
+</datafield>
+<datafield ind1=" " ind2="7" tag="655">
+<subfield code="0">(DE-101)1010008188</subfield>
+<subfield code="a">Erzählende Literatur: Gegenwartsliteratur ab 1945</subfield>
+<subfield code="2">gatbeg</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="850">
+<subfield code="a">DE-101a</subfield>
+<subfield code="a">DE-101b</subfield>
+</datafield>
+<datafield ind1="4" ind2="0" tag="856">
+<subfield code="u">https://nbn-resolving.org/urn:nbn:de:101:1-2019101823024545381258</subfield>
+<subfield code="x">Resolving-System</subfield>
+</datafield>
+<datafield ind1=" " ind2="0" tag="856">
+<subfield code="u">https://d-nb.info/1197374205/34</subfield>
+<subfield code="x">Langzeitarchivierung Nationalbibliothek</subfield>
+</datafield>
+<datafield ind1="4" ind2=" " tag="856">
+<subfield code="q">epub</subfield>
+<subfield code="u">http://www.neobooks.com/</subfield>
+<subfield code="x">Verlag</subfield>
+</datafield>
+<datafield ind1="1" ind2=" " tag="883">
+<subfield code="8">1\p</subfield>
+<subfield code="a">npi</subfield>
+<subfield code="d">20191018</subfield>
+<subfield code="q">DE-101</subfield>
+<subfield code="u">https://d-nb.info/provenance/plan#npi</subfield>
+</datafield>
+<datafield ind1="r" ind2=" " tag="925">
+<subfield code="a">ro</subfield>
+<subfield code="a">ra</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">FU</subfield>
+<subfield code="o">93</subfield>
+</datafield>
+<datafield ind1="2" ind2=" " tag="926">
+<subfield code="a">FP</subfield>
+<subfield code="o">93</subfield>
+<subfield code="v">1.0</subfield>
+</datafield>
+<datafield ind1=" " ind2=" " tag="927">
+<subfield code="a">258637825</subfield>
+</datafield>
+</record></recordData><recordPosition>6</recordPosition></record></records><echoedSearchRetrieveRequest><version>1.1</version><query>Krustenbraten</query><xQuery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><maximumRecords>100</maximumRecords><recordSchema>MARC21-xml</recordSchema></echoedSearchRetrieveRequest></searchRetrieveResponse>

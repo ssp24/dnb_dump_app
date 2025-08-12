@@ -332,6 +332,7 @@ class SRUQueryApp(QMainWindow):
         font.setFamily("Verdana")
         font.setPointSize(10)
         app.setFont(font)
+        app.setStyleSheet("QWidget { color: black; }")
 
         self.setWindowTitle("SRU Query Tool")
         self.setFixedSize(750, 800)
@@ -481,9 +482,9 @@ class SRUQueryApp(QMainWindow):
         # Add logo:
         self.logo_label = QLabel(self)
         pixmap = QPixmap(resource_path("logo.gif"))
-        self.logo_label.setPixmap(pixmap.scaled(80, 90, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        self.logo_label.setPixmap(pixmap.scaled(90, 80, Qt.KeepAspectRatio, Qt.SmoothTransformation))
         self.logo_label.setAlignment(Qt.AlignTop | Qt.AlignRight)
-        self.logo_label.setGeometry(self.width() - 110, 10, 90, 80)
+        self.logo_label.setGeometry(self.width() - 110, 10, 90, 60)
         self.logo_label.raise_()
 
         layout.addLayout(exit_layout)
@@ -507,6 +508,7 @@ class SRUQueryApp(QMainWindow):
         self.metadata_combo.addItems(formats)
 
     def check_search_query(self):
+        self.status_label.setText("")
         try:
             catalogue = self.catalogue_combo.currentText()
             metadata = self.metadata_combo.currentText()
